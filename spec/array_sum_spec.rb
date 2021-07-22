@@ -2,6 +2,11 @@
 
 require_relative '../array_sum'
 
+=begin
+https://www.hackerrank.com/challenges/simple-array-sum/problem
+
+Sums an array. Doesn't get much simpler.
+=end
 describe Array_Sum do
   it 'sums an empty array' do
     array_summer = Array_Sum.new
